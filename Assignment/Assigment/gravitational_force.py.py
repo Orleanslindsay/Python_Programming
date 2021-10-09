@@ -1,4 +1,6 @@
-#The values G,m1,m2,f and d stands for Gravitational constant, initial mass,final mass,force and distance respectively
+"""The values G,m1,m2,f and d stands for Gravitational constant, 
+   initial mass,final mass,force and distance respectively"""
+
 G = 6.67 * 10 ** -11
 m1 = float(input("The value of the initial mass: "))
 m2 = float(input("The value of the final mass: "))

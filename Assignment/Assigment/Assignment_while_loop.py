@@ -1,4 +1,10 @@
 while True:
+	""""PURPOSE OF THE CODE;The code is designed to determine if a 
+	student won an award or not.
+	CAUTION;If the input of the user is a string it will print Invaled Entry
+	if and only the user input is equal to Exit
+	INPUT;the user input should be in float and then prints out the corresponing
+	award pertaining to the specified range given"""
 	input_value = input("Enter student's score:")
 	if input_value.capitalize() == "Exit":
 		break

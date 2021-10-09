@@ -1,3 +1,4 @@
+#The code is to take in numbers which are even and odd in the provided set
 even_numbers = []
 odd_numbers = []
 for number in range(0,1001):
