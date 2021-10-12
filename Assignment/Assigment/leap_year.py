@@ -1,6 +1,6 @@
 """"The code is programmed to determine if a specified year is a leap
 year or not.
-The code takes input from user in integer from since there is no year
+The code takes input from user in integer form since there is no year
 which is a decimal(float)
 METHODS EXPLANATION;
 .capitalize(): capitalizes the input of the user if in strings form.
