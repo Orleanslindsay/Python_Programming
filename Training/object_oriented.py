@@ -7,5 +7,5 @@ class student:
 	def __init__(self,name,marks):
 		self.name = name
 		self.marks = marks
-student = self.("orleans",21)
+student = ("orleans",21)
 print(student)

@@ -2,7 +2,7 @@ from tkinter import *
 import tkinter as tk
 # is used for instantiate Tkinter GUI
 window = tk.Tk()
-
+window.configure(bg="light blue")
 # set title
 window.title("Area  of  a circle")
 
@@ -18,7 +18,7 @@ def area_circle():
 	results.set(f'{round(area,3)}AREA')
 
 # Initializzing a frame
-frame_entry = tk.Frame(master=window)
+frame_entry = tk.Frame(master=window,bg="red")
 frame_entry.grid(row=0, column=0, padx=10)
 
 # creating an Enntry widget for raaduis
